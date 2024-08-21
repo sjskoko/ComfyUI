@@ -1,0 +1,207 @@
+## ComfyUI-Manager: installing dependencies done.
+[2024-07-19 07:38] ** ComfyUI startup time: 2024-07-19 07:38:22.338585
+[2024-07-19 07:38] ** Platform: Linux
+[2024-07-19 07:38] ** Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+[2024-07-19 07:38] ** Python executable: /home/work/comfyui/ComfyUI/venv/bin/python
+[2024-07-19 07:38] ** Log path: /home/work/comfyui/ComfyUI/comfyui.log
+[2024-07-19 07:38] 
+Prestartup times for custom nodes:
+[2024-07-19 07:38]    0.0 seconds: /home/work/comfyui/ComfyUI/custom_nodes/rgthree-comfy
+[2024-07-19 07:38]    1.8 seconds: /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-07-19 07:38] 
+Total VRAM 32501 MB, total RAM 515648 MB
+[2024-07-19 07:38] pytorch version: 2.3.1+cu121
+[2024-07-19 07:38] Set vram state to: NORMAL_VRAM
+[2024-07-19 07:38] Device: cuda:0 CUDA GPU : cudaMallocAsync
+[2024-07-19 07:38] Using pytorch cross attention
+[2024-07-19 07:38] ### Loading: ComfyUI-Manager (V2.38.1)
+[2024-07-19 07:38] ### ComfyUI Revision: 2264 [a45df695] | Released on '2024-06-17'
+[2024-07-19 07:38] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-07-19 07:38] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[2024-07-19 07:38] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-07-19 07:38] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-07-19 07:38] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-07-19 07:38] /home/work/comfyui/ComfyUI/venv/lib/python3.10/site-packages/numba/np/ufunc/parallel.py:371: NumbaWarning: [1mThe TBB threading layer requires TBB version 2021 update 6 or later i.e., TBB_INTERFACE_VERSION >= 12060. Found TBB_INTERFACE_VERSION = 12050. The TBB threading layer is disabled.[0m
+  warnings.warn(problem)
+[2024-07-19 07:38] /home/work/comfyui/ComfyUI/venv/lib/python3.10/site-packages/diffusers/utils/outputs.py:63: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  torch.utils._pytree._register_pytree_node(
+[2024-07-19 07:38] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
+[2024-07-19 07:38] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `/home/work/comfyui/ComfyUI/custom_nodes/was-node-suite-comfyui/was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
+[2024-07-19 07:38] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m214[0m [32mnodes successfully.[0m
+[2024-07-19 07:38] 
+	[3m[93m"Art is the universal language that transcends boundaries and speaks to all."[0m[3m - Unknown[0m
+[2024-07-19 07:38] 
+[2024-07-19 07:38] [36;20m[comfyui_controlnet_aux] | INFO -> Using ckpts path: /home/work/comfyui/ComfyUI/custom_nodes/comfyui_controlnet_aux/ckpts[0m
+[2024-07-19 07:38] [36;20m[comfyui_controlnet_aux] | INFO -> Using symlinks: False[0m
+[2024-07-19 07:38] [36;20m[comfyui_controlnet_aux] | INFO -> Using ort providers: ['CUDAExecutionProvider', 'DirectMLExecutionProvider', 'OpenVINOExecutionProvider', 'ROCMExecutionProvider', 'CPUExecutionProvider', 'CoreMLExecutionProvider'][0m
+[2024-07-19 07:38] /home/work/comfyui/ComfyUI/custom_nodes/comfyui_controlnet_aux/node_wrappers/dwpose.py:26: UserWarning: DWPose: Onnxruntime not found or doesn't come with acceleration providers, switch to OpenCV with CPU device. DWPose might run very slowly
+  warnings.warn("DWPose: Onnxruntime not found or doesn't come with acceleration providers, switch to OpenCV with CPU device. DWPose might run very slowly")
+[2024-07-19 07:38] /home/work/comfyui/ComfyUI/venv/lib/python3.10/site-packages/diffusers/utils/outputs.py:63: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  torch.utils._pytree._register_pytree_node(
+[2024-07-19 07:38] Traceback (most recent call last):
+  File "/home/work/comfyui/ComfyUI/nodes.py", line 1906, in load_custom_node
+    module_spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/work/comfyui/ComfyUI/custom_nodes/ComfyUI-IDM-VTON/__init__.py", line 2, in <module>
+    from .src.nodes_mappings import NODE_CLASS_MAPPINGS, NODE_DISPLAY_NAME_MAPPINGS
+  File "/home/work/comfyui/ComfyUI/custom_nodes/ComfyUI-IDM-VTON/src/nodes_mappings.py", line 1, in <module>
+    from .nodes.pipeline_loader import PipelineLoader
+  File "/home/work/comfyui/ComfyUI/custom_nodes/ComfyUI-IDM-VTON/src/nodes/pipeline_loader.py", line 9, in <module>
+    from ..idm_vton.unet_hacked_tryon import UNet2DConditionModel
+  File "/home/work/comfyui/ComfyUI/custom_nodes/ComfyUI-IDM-VTON/src/idm_vton/unet_hacked_tryon.py", line 35, in <module>
+    from diffusers.models.embeddings import (
+ImportError: cannot import name 'GLIGENTextBoundingboxProjection' from 'diffusers.models.embeddings' (/home/work/comfyui/ComfyUI/venv/lib/python3.10/site-packages/diffusers/models/embeddings.py)
+
+[2024-07-19 07:38] Cannot import /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI-IDM-VTON module for custom nodes: cannot import name 'GLIGENTextBoundingboxProjection' from 'diffusers.models.embeddings' (/home/work/comfyui/ComfyUI/venv/lib/python3.10/site-packages/diffusers/models/embeddings.py)
+[2024-07-19 07:38] 
+[2024-07-19 07:38] [92m[rgthree] Loaded 40 magnificent nodes.[0m
+[2024-07-19 07:38] [92m[rgthree] Will use rgthree's optimized recursive execution.[0m
+[2024-07-19 07:38] 
+[2024-07-19 07:38] ### Loading: ComfyUI-Impact-Pack (V5.15.3)
+[2024-07-19 07:38] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.6)
+[2024-07-19 07:38] [Impact Pack] Wildcards loading done.
+[2024-07-19 07:38] /home/work/comfyui/ComfyUI/venv/lib/python3.10/site-packages/diffusers/utils/outputs.py:63: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  torch.utils._pytree._register_pytree_node(
+[2024-07-19 07:38] Traceback (most recent call last):
+  File "/home/work/comfyui/ComfyUI/nodes.py", line 1906, in load_custom_node
+    module_spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/work/comfyui/ComfyUI/custom_nodes/ComfyUI-J/__init__.py", line 18, in <module>
+    from .pipelines import ControlNetUnit, ControlNetUnits, PipelineWrapper, schedulers
+  File "/home/work/comfyui/ComfyUI/custom_nodes/ComfyUI-J/pipelines/__init__.py", line 20, in <module>
+    from .jannchie import *
+  File "/home/work/comfyui/ComfyUI/custom_nodes/ComfyUI-J/pipelines/jannchie.py", line 14, in <module>
+    from diffusers.models.autoencoders import AutoencoderKL
+ModuleNotFoundError: No module named 'diffusers.models.autoencoders'
+
+[2024-07-19 07:38] Cannot import /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI-J module for custom nodes: No module named 'diffusers.models.autoencoders'
+[2024-07-19 07:38] A new version of Albumentations is available: 1.4.11 (you have 1.4.8). Upgrade using: pip install --upgrade albumentations
+[2024-07-19 07:38] [36mEfficiency Nodes:[0m Attempting to add Control Net options to the 'HiRes-Fix Script' Node (comfyui_controlnet_aux add-on)...[92mSuccess![0m
+[2024-07-19 07:38] Total VRAM 32501 MB, total RAM 515648 MB
+[2024-07-19 07:38] pytorch version: 2.3.1+cu121
+[2024-07-19 07:38] Set vram state to: NORMAL_VRAM
+[2024-07-19 07:38] Device: cuda:0 CUDA GPU : cudaMallocAsync
+[2024-07-19 07:38] Please 'pip install xformers'
+[2024-07-19 07:38] Please 'pip install apex'
+[2024-07-19 07:38] Please 'pip install xformers'
+[2024-07-19 07:38] [0;33m[ReActor][0m - [38;5;173mSTATUS[0m - [0;32mRunning v0.5.0-b4 in ComfyUI[0m
+[2024-07-19 07:38] Torch version: 2.3.1+cu121
+[2024-07-19 07:38] no module 'xformers'. Processing without...
+[2024-07-19 07:38] no module 'xformers'. Processing without...
+[2024-07-19 07:38] [comfy_mtb] | INFO -> loaded 77 nodes successfuly
+[2024-07-19 07:38] [comfy_mtb] | INFO -> Some nodes (2) could not be loaded. This can be ignored, but go to http://127.0.0.1:8288/mtb if you want more information.
+[2024-07-19 07:38] @@device:cuda
+[2024-07-19 07:38] Traceback (most recent call last):
+  File "/home/work/comfyui/ComfyUI/nodes.py", line 1906, in load_custom_node
+    module_spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/work/comfyui/ComfyUI/custom_nodes/ComfyUI_Fooocus_KSampler/__init__.py", line 1, in <module>
+    from .sampler.nodes import KSamplerWithRefiner
+  File "/home/work/comfyui/ComfyUI/custom_nodes/ComfyUI_Fooocus_KSampler/sampler/nodes.py", line 7, in <module>
+    from .Fooocus import core
+  File "/home/work/comfyui/ComfyUI/custom_nodes/ComfyUI_Fooocus_KSampler/sampler/Fooocus/core.py", line 15, in <module>
+    from .patch import patch_all
+  File "/home/work/comfyui/ComfyUI/custom_nodes/ComfyUI_Fooocus_KSampler/sampler/Fooocus/patch.py", line 6, in <module>
+    from comfy.samplers import model_management, lcm, math
+ImportError: cannot import name 'lcm' from 'comfy.samplers' (/home/work/comfyui/ComfyUI/comfy/samplers.py)
+
+[2024-07-19 07:38] Cannot import /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI_Fooocus_KSampler module for custom nodes: cannot import name 'lcm' from 'comfy.samplers' (/home/work/comfyui/ComfyUI/comfy/samplers.py)
+[2024-07-19 07:38] (pysssss:WD14Tagger) [DEBUG] Available ORT providers: AzureExecutionProvider, CPUExecutionProvider
+[2024-07-19 07:38] (pysssss:WD14Tagger) [DEBUG] Using ORT providers: CUDAExecutionProvider, CPUExecutionProvider
+[2024-07-19 07:38] Traceback (most recent call last):
+  File "/home/work/comfyui/ComfyUI/nodes.py", line 1906, in load_custom_node
+    module_spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/work/comfyui/ComfyUI/custom_nodes/ComfyUI-YoloWorld-EfficientSAM/__init__.py", line 1, in <module>
+    from . import YOLO_WORLD_EfficientSAM
+  File "/home/work/comfyui/ComfyUI/custom_nodes/ComfyUI-YoloWorld-EfficientSAM/YOLO_WORLD_EfficientSAM.py", line 6, in <module>
+    import supervision as sv
+ModuleNotFoundError: No module named 'supervision'
+
+[2024-07-19 07:38] Cannot import /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI-YoloWorld-EfficientSAM module for custom nodes: No module named 'supervision'
+[2024-07-19 07:38] ------------------------------------------
+[2024-07-19 07:38] Comfyroll Studio v1.76 :  175 Nodes Loaded
+[2024-07-19 07:38] ------------------------------------------
+[2024-07-19 07:38] ** For changes, please see patch notes at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/blob/main/Patch_Notes.md
+[2024-07-19 07:38] ** For help, please see the wiki at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/wiki
+[2024-07-19 07:38] ------------------------------------------
+[2024-07-19 07:38] Loaded Efficiency nodes from /home/work/comfyui/ComfyUI/custom_nodes/efficiency-nodes-comfyui
+[2024-07-19 07:38] Loaded ControlNetPreprocessors nodes from /home/work/comfyui/ComfyUI/custom_nodes/comfyui_controlnet_aux
+[2024-07-19 07:38] Loaded AdvancedControlNet nodes from /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI-Advanced-ControlNet
+[2024-07-19 07:38] Could not find AnimateDiff nodes
+[2024-07-19 07:38] Loaded IPAdapter nodes from /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI_IPAdapter_plus
+[2024-07-19 07:38] Loaded VideoHelperSuite from /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI-VideoHelperSuite
+[2024-07-19 07:38] ### Loading: ComfyUI-Impact-Pack (V5.15.3)
+[2024-07-19 07:38] Loaded ImpactPack nodes from /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI-Impact-Pack
+[2024-07-19 07:38] [Impact Pack] Wildcards loading done.
+[2024-07-19 07:38] 
+Import times for custom nodes:
+[2024-07-19 07:38]    0.0 seconds: /home/work/comfyui/ComfyUI/custom_nodes/websocket_image_save.py
+[2024-07-19 07:38]    0.0 seconds: /home/work/comfyui/ComfyUI/custom_nodes/cg-use-everywhere
+[2024-07-19 07:38]    0.0 seconds: /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI-Inpaint-CropAndStitch
+[2024-07-19 07:38]    0.0 seconds: /home/work/comfyui/ComfyUI/custom_nodes/masquerade-nodes-comfyui
+[2024-07-19 07:38]    0.0 seconds: /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI_FaceAnalysis
+[2024-07-19 07:38]    0.0 seconds: /home/work/comfyui/ComfyUI/custom_nodes/ComfyUi_NNLatentUpscale
+[2024-07-19 07:38]    0.0 seconds (IMPORT FAILED): /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI-YoloWorld-EfficientSAM
+[2024-07-19 07:38]    0.0 seconds: /home/work/comfyui/ComfyUI/custom_nodes/comfyui-ultralytics-yolo
+[2024-07-19 07:38]    0.0 seconds: /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI-WD14-Tagger
+[2024-07-19 07:38]    0.0 seconds (IMPORT FAILED): /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI_Fooocus_KSampler
+[2024-07-19 07:38]    0.0 seconds: /home/work/comfyui/ComfyUI/custom_nodes/comfyui-inpaint-nodes
+[2024-07-19 07:38]    0.0 seconds: /home/work/comfyui/ComfyUI/custom_nodes/antrobots-comfyUI-nodepack
+[2024-07-19 07:38]    0.0 seconds: /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI_essentials
+[2024-07-19 07:38]    0.0 seconds (IMPORT FAILED): /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI-IDM-VTON
+[2024-07-19 07:38]    0.0 seconds: /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI-AutoCropFaces
+[2024-07-19 07:38]    0.0 seconds: /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI-Advanced-ControlNet
+[2024-07-19 07:38]    0.0 seconds: /home/work/comfyui/ComfyUI/custom_nodes/Derfuu_ComfyUI_ModdedNodes
+[2024-07-19 07:38]    0.0 seconds (IMPORT FAILED): /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI-J
+[2024-07-19 07:38]    0.0 seconds: /home/work/comfyui/ComfyUI/custom_nodes/efficiency-nodes-comfyui
+[2024-07-19 07:38]    0.0 seconds: /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI-KJNodes
+[2024-07-19 07:38]    0.0 seconds: /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI_IPAdapter_plus
+[2024-07-19 07:38]    0.0 seconds: /home/work/comfyui/ComfyUI/custom_nodes/rgthree-comfy
+[2024-07-19 07:38]    0.0 seconds: /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI_Comfyroll_CustomNodes
+[2024-07-19 07:38]    0.0 seconds: /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI_TensorRT
+[2024-07-19 07:38]    0.0 seconds: /home/work/comfyui/ComfyUI/custom_nodes/Comfyui-MusePose
+[2024-07-19 07:38]    0.1 seconds: /home/work/comfyui/ComfyUI/custom_nodes/facerestore_cf
+[2024-07-19 07:38]    0.1 seconds: /home/work/comfyui/ComfyUI/custom_nodes/comfyui-art-venture
+[2024-07-19 07:38]    0.1 seconds: /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-07-19 07:38]    0.1 seconds: /home/work/comfyui/ComfyUI/custom_nodes/comfy_mtb
+[2024-07-19 07:38]    0.1 seconds: /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI-VideoHelperSuite
+[2024-07-19 07:38]    0.1 seconds: /home/work/comfyui/ComfyUI/custom_nodes/comfyui-reactor-node
+[2024-07-19 07:38]    0.1 seconds: /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI_MagicClothing
+[2024-07-19 07:38]    0.1 seconds: /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI-Impact-Pack
+[2024-07-19 07:38]    0.2 seconds: /home/work/comfyui/ComfyUI/custom_nodes/PuLID_ComfyUI
+[2024-07-19 07:38]    0.4 seconds: /home/work/comfyui/ComfyUI/custom_nodes/comfyui_segment_anything
+[2024-07-19 07:38]    0.6 seconds: /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI_PCDMs
+[2024-07-19 07:38]    0.8 seconds: /home/work/comfyui/ComfyUI/custom_nodes/hd_node
+[2024-07-19 07:38]    0.9 seconds: /home/work/comfyui/ComfyUI/custom_nodes/comfyui_controlnet_aux
+[2024-07-19 07:38]    1.0 seconds: /home/work/comfyui/ComfyUI/custom_nodes/rembg-comfyui-node
+[2024-07-19 07:38]    2.2 seconds: /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI-SUPIR
+[2024-07-19 07:38]    2.9 seconds: /home/work/comfyui/ComfyUI/custom_nodes/was-node-suite-comfyui
+[2024-07-19 07:38] 
+[2024-07-19 07:38] 
+[2024-07-19 07:38] ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[2024-07-19 07:38] main.py 254 <module>
+[2024-07-19 07:38] loop.run_until_complete(run(server, address=args.listen, port=args.port, verbose=not args.dont_print_server, call_on_start=call_on_start))
+[2024-07-19 07:38] 
+[2024-07-19 07:38] base_events.py 649 run_until_complete
+[2024-07-19 07:38] return future.result()
+[2024-07-19 07:38] 
+[2024-07-19 07:38] main.py 149 run
+[2024-07-19 07:38] await asyncio.gather(server.start(address, port, verbose, call_on_start), server.publish_loop())
+[2024-07-19 07:38] 
+[2024-07-19 07:38] server.py 636 start
+[2024-07-19 07:38] await site.start()
+[2024-07-19 07:38] 
+[2024-07-19 07:38] web_runner.py 119 start
+[2024-07-19 07:38] self._server = await loop.create_server(
+[2024-07-19 07:38] 
+[2024-07-19 07:38] base_events.py 1519 create_server
+[2024-07-19 07:38] raise OSError(err.errno, 'error while attempting '
+[2024-07-19 07:38] 
+[2024-07-19 07:38] OSError:
+[2024-07-19 07:38] 98
+error while attempting to bind on address ('127.0.0.1', 8288): address already in use

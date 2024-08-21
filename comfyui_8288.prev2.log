@@ -1,0 +1,107 @@
+## ComfyUI-Manager: installing dependencies done.
+[2024-06-28 05:51] ** ComfyUI startup time: 2024-06-28 05:51:03.487873
+[2024-06-28 05:51] ** Platform: Linux
+[2024-06-28 05:51] ** Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+[2024-06-28 05:51] ** Python executable: /home/work/comfyui/ComfyUI/venv/bin/python
+[2024-06-28 05:51] ** Log path: /home/work/comfyui/ComfyUI/comfyui.log
+[2024-06-28 05:51] 
+Prestartup times for custom nodes:
+[2024-06-28 05:51]    0.0 seconds: /home/work/comfyui/ComfyUI/custom_nodes/rgthree-comfy
+[2024-06-28 05:51]    2.0 seconds: /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-06-28 05:51] 
+Total VRAM 32501 MB, total RAM 515663 MB
+[2024-06-28 05:51] pytorch version: 2.3.1+cu121
+[2024-06-28 05:51] Set vram state to: NORMAL_VRAM
+[2024-06-28 05:51] Device: cuda:0 CUDA GPU : cudaMallocAsync
+[2024-06-28 05:51] Using pytorch cross attention
+[2024-06-28 05:51] ### Loading: ComfyUI-Manager (V2.38.1)
+[2024-06-28 05:51] ### ComfyUI Revision: 2264 [a45df695] | Released on '2024-06-17'
+[2024-06-28 05:51] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-06-28 05:51] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-06-28 05:51] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[2024-06-28 05:51] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-06-28 05:51] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-06-28 05:51] /home/work/comfyui/ComfyUI/venv/lib/python3.10/site-packages/numba/np/ufunc/parallel.py:371: NumbaWarning: [1mThe TBB threading layer requires TBB version 2021 update 6 or later i.e., TBB_INTERFACE_VERSION >= 12060. Found TBB_INTERFACE_VERSION = 12050. The TBB threading layer is disabled.[0m
+  warnings.warn(problem)
+[2024-06-28 05:51] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
+[2024-06-28 05:51] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `/home/work/comfyui/ComfyUI/custom_nodes/was-node-suite-comfyui/was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
+[2024-06-28 05:51] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m214[0m [32mnodes successfully.[0m
+[2024-06-28 05:51] 
+	[3m[93m"Don't be afraid to give up the good to go for the great."[0m[3m - John D. Rockefeller[0m
+[2024-06-28 05:51] 
+[2024-06-28 05:51] [36;20m[comfyui_controlnet_aux] | INFO -> Using ckpts path: /home/work/comfyui/ComfyUI/custom_nodes/comfyui_controlnet_aux/ckpts[0m
+[2024-06-28 05:51] [36;20m[comfyui_controlnet_aux] | INFO -> Using symlinks: False[0m
+[2024-06-28 05:51] [36;20m[comfyui_controlnet_aux] | INFO -> Using ort providers: ['CUDAExecutionProvider', 'DirectMLExecutionProvider', 'OpenVINOExecutionProvider', 'ROCMExecutionProvider', 'CPUExecutionProvider', 'CoreMLExecutionProvider'][0m
+[2024-06-28 05:51] /home/work/comfyui/ComfyUI/venv/lib/python3.10/site-packages/diffusers/models/dual_transformer_2d.py:20: FutureWarning: `DualTransformer2DModel` is deprecated and will be removed in version 0.29. Importing `DualTransformer2DModel` from `diffusers.models.dual_transformer_2d` is deprecated and this will be removed in a future version. Please use `from diffusers.models.transformers.dual_transformer_2d import DualTransformer2DModel`, instead.
+  deprecate("DualTransformer2DModel", "0.29", deprecation_message)
+[2024-06-28 05:51] /home/work/comfyui/ComfyUI/venv/lib/python3.10/site-packages/diffusers/models/transformer_2d.py:20: FutureWarning: `Transformer2DModelOutput` is deprecated and will be removed in version 0.29. Importing `Transformer2DModelOutput` from `diffusers.models.transformer_2d` is deprecated and this will be removed in a future version. Please use `from diffusers.models.transformers.transformer_2d import Transformer2DModelOutput`, instead.
+  deprecate("Transformer2DModelOutput", "0.29", deprecation_message)
+[2024-06-28 05:51] /home/work/comfyui/ComfyUI/venv/lib/python3.10/site-packages/diffusers/models/transformer_2d.py:25: FutureWarning: `Transformer2DModel` is deprecated and will be removed in version 0.29. Importing `Transformer2DModel` from `diffusers.models.transformer_2d` is deprecated and this will be removed in a future version. Please use `from diffusers.models.transformers.transformer_2d import Transformer2DModel`, instead.
+  deprecate("Transformer2DModel", "0.29", deprecation_message)
+[2024-06-28 05:51] 
+[2024-06-28 05:51] [92m[rgthree] Loaded 40 fantastic nodes.[0m
+[2024-06-28 05:51] [92m[rgthree] Will use rgthree's optimized recursive execution.[0m
+[2024-06-28 05:51] 
+[2024-06-28 05:51] ### Loading: ComfyUI-Impact-Pack (V5.15.3)
+[2024-06-28 05:51] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.6)
+[2024-06-28 05:51] [Impact Pack] Wildcards loading done.
+[2024-06-28 05:51] A new version of Albumentations is available: 1.4.10 (you have 1.4.8). Upgrade using: pip install --upgrade albumentations
+[2024-06-28 05:51] [36mEfficiency Nodes:[0m Attempting to add Control Net options to the 'HiRes-Fix Script' Node (comfyui_controlnet_aux add-on)...[92mSuccess![0m
+[2024-06-28 05:51] Total VRAM 32501 MB, total RAM 515663 MB
+[2024-06-28 05:51] pytorch version: 2.3.1+cu121
+[2024-06-28 05:51] Set vram state to: NORMAL_VRAM
+[2024-06-28 05:51] Device: cuda:0 CUDA GPU : cudaMallocAsync
+[2024-06-28 05:51] Please 'pip install xformers'
+[2024-06-28 05:51] Please 'pip install apex'
+[2024-06-28 05:51] Please 'pip install xformers'
+[2024-06-28 05:51] [0;33m[ReActor][0m - [38;5;173mSTATUS[0m - [0;32mRunning v0.5.0-b4 in ComfyUI[0m
+[2024-06-28 05:51] Torch version: 2.3.1+cu121
+[2024-06-28 05:51] no module 'xformers'. Processing without...
+[2024-06-28 05:51] no module 'xformers'. Processing without...
+[2024-06-28 05:51] [comfy_mtb] | INFO -> loaded 77 nodes successfuly
+[2024-06-28 05:51] [comfy_mtb] | INFO -> Some nodes (2) could not be loaded. This can be ignored, but go to http://127.0.0.1:8288/mtb if you want more information.
+[2024-06-28 05:51] @@device:cuda
+[2024-06-28 05:51] 
+Import times for custom nodes:
+[2024-06-28 05:51]    0.0 seconds: /home/work/comfyui/ComfyUI/custom_nodes/websocket_image_save.py
+[2024-06-28 05:51]    0.0 seconds: /home/work/comfyui/ComfyUI/custom_nodes/cg-use-everywhere
+[2024-06-28 05:51]    0.0 seconds: /home/work/comfyui/ComfyUI/custom_nodes/masquerade-nodes-comfyui
+[2024-06-28 05:51]    0.0 seconds: /home/work/comfyui/ComfyUI/custom_nodes/ComfyUi_NNLatentUpscale
+[2024-06-28 05:51]    0.0 seconds: /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI_FaceAnalysis
+[2024-06-28 05:51]    0.0 seconds: /home/work/comfyui/ComfyUI/custom_nodes/antrobots-comfyUI-nodepack
+[2024-06-28 05:51]    0.0 seconds: /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI_essentials
+[2024-06-28 05:51]    0.0 seconds: /home/work/comfyui/ComfyUI/custom_nodes/efficiency-nodes-comfyui
+[2024-06-28 05:51]    0.0 seconds: /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI-KJNodes
+[2024-06-28 05:51]    0.0 seconds: /home/work/comfyui/ComfyUI/custom_nodes/Derfuu_ComfyUI_ModdedNodes
+[2024-06-28 05:51]    0.0 seconds: /home/work/comfyui/ComfyUI/custom_nodes/rgthree-comfy
+[2024-06-28 05:51]    0.0 seconds: /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI-IDM-VTON
+[2024-06-28 05:51]    0.1 seconds: /home/work/comfyui/ComfyUI/custom_nodes/Comfyui-MusePose
+[2024-06-28 05:51]    0.1 seconds: /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI_IPAdapter_plus
+[2024-06-28 05:51]    0.1 seconds: /home/work/comfyui/ComfyUI/custom_nodes/facerestore_cf
+[2024-06-28 05:51]    0.1 seconds: /home/work/comfyui/ComfyUI/custom_nodes/comfy_mtb
+[2024-06-28 05:51]    0.1 seconds: /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI-VideoHelperSuite
+[2024-06-28 05:51]    0.1 seconds: /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-06-28 05:51]    0.1 seconds: /home/work/comfyui/ComfyUI/custom_nodes/comfyui-reactor-node
+[2024-06-28 05:51]    0.2 seconds: /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI-Impact-Pack
+[2024-06-28 05:51]    0.2 seconds: /home/work/comfyui/ComfyUI/custom_nodes/PuLID_ComfyUI
+[2024-06-28 05:51]    0.2 seconds: /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI_MagicClothing
+[2024-06-28 05:51]    0.7 seconds: /home/work/comfyui/ComfyUI/custom_nodes/comfyui_segment_anything
+[2024-06-28 05:51]    0.9 seconds: /home/work/comfyui/ComfyUI/custom_nodes/hd_node
+[2024-06-28 05:51]    1.0 seconds: /home/work/comfyui/ComfyUI/custom_nodes/comfyui_controlnet_aux
+[2024-06-28 05:51]    1.4 seconds: /home/work/comfyui/ComfyUI/custom_nodes/rembg-comfyui-node
+[2024-06-28 05:51]    1.7 seconds: /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI-J
+[2024-06-28 05:51]    2.7 seconds: /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI-SUPIR
+[2024-06-28 05:51]    2.9 seconds: /home/work/comfyui/ComfyUI/custom_nodes/was-node-suite-comfyui
+[2024-06-28 05:51] 
+[2024-06-28 05:51] Starting server
+
+[2024-06-28 05:51] To see the GUI go to: http://127.0.0.1:8288
+[2024-06-28 05:55] FETCH DATA from: /home/work/comfyui/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json [DONE]
+[2024-06-28 05:55] got prompt
+[2024-06-28 05:55] [rgthree] Using rgthree's optimized recursive execution.
+[2024-06-28 05:55] [rgthree] First run patching recursive_output_delete_if_changed and recursive_will_execute.
+[2024-06-28 05:55] [rgthree] Note: If execution seems broken due to forward ComfyUI changes, you can disable the optimization from rgthree settings in ComfyUI.
+[2024-06-28 05:55] [ReActor] 05:55:40 - [38;5;173mSTATUS[0m - Working: source face index [0], target face index [0]
+[2024-06-28 05:55] [ReActor] 05:55:40 - [38;5;173mSTATUS[0m - Analyzing Source Image...
+[2024-06-28 05:56] got prompt
+[2024-06-28 05:56] got prompt
