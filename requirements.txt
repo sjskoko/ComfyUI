@@ -3,7 +3,9 @@ torchsde
 torchvision
 torchaudio
 einops
-transformers>=4.25.1
+transformers>=4.28.1
+tokenizers>=0.13.3
+sentencepiece
 safetensors>=0.4.2
 aiohttp
 pyyaml
@@ -15,6 +17,7 @@ psutil
 #non essential dependencies:
 kornia>=0.7.1
 spandrel
+<<<<<<< HEAD
 
 GitPython
 PyGithub
@@ -24,3 +27,6 @@ huggingface-hub>0.20
 typer
 rich
 typing-extensions
+=======
+soundfile
+>>>>>>> 5e806f555d1704d10ae02f4fafbc1b85713d389f
